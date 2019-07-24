@@ -9,6 +9,8 @@ sudo docker image build .
 #Dockerfile_debian  
 sudo docker image build -t azizdevops/demo:v1 .  
 sudo docker images  
+sudo docker run -it --rm azizdevops/demo:v1 /bin/bash  
+
 
 
 echo "# Dockerfile" >> README.md  
