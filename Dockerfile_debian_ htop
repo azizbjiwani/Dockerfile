@@ -17,6 +17,7 @@ ENV DZ version1
 
 # 4 - ADD
 ADD run.sh /root/run.sh
+RUN chmod +x run.sh
 CMD ["./run.sh"]
 
 # 5 - ENTRYPOINT (vs CMD)
