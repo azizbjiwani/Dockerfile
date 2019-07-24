@@ -9,8 +9,9 @@ sudo docker images
 sudo docker run -it --rm azizdevops/demo:v1 /bin/bash  
   
 #Dockerfile_debian_ htop  
-sudo docker image build -t azizdevops/demo .    
+sudo docker image build -t azizdevops/demo .      
 sudo docker images  
+sudo docker container run -it --rm azizdevops/demo  
 sudo docker container run -it --rm azizdevops/demo /bin/bash  
 
 
