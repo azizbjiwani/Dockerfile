@@ -12,6 +12,7 @@ sudo docker run -it --rm azizdevops/demo:v1 /bin/bash
 sudo docker image build -t azizdevops/demo .      
 sudo docker images  
 sudo docker container run -it --rm azizdevops/demo  
+sudo docker container run -it --rm azizdevops/demo ./run.sh Hello Ajju  
 sudo docker container run -it --rm azizdevops/demo /bin/bash  
 
 
