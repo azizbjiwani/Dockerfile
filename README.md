@@ -6,7 +6,9 @@ Dockerfiles begin with defining an image FROM which the build process starts. Fo
 #Dockerfile_debian_ htop  
 sudo docker image build .  
   
-  
+#Dockerfile_debian  
+sudo docker image build -t azizdevops/demo:v1 .  
+sudo docker images  
 
 
 echo "# Dockerfile" >> README.md  
