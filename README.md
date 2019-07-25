@@ -18,8 +18,10 @@ sudo docker container run -it --rm azizdevops/demo /bin/bash
 #Dockerfile_Nginx  
 sudo docker image build -t azizdevops/nginx .   
 sudo docker run -it --rm azizdevops/nginx  
-
-
+sudo docker run -it --rm -d azizdevops/nginx  
+sudo docker exec -it 5451c5180ca3 /bin/bash  
+  
+  
 echo "# Dockerfile" >> README.md  
 git init  
 git add README.md  
