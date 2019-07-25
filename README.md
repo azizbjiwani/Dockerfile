@@ -15,7 +15,7 @@ sudo docker container run -it --rm azizdevops/demo
 sudo docker container run -it --rm azizdevops/demo ./run.sh Hello Ajju  
 sudo docker container run -it --rm azizdevops/demo /bin/bash  
   
-#Dockerfile_Nginx  
+#Dockerfile_Nginx  -- BASAD -- FAILED
 sudo docker image build -t azizdevops/nginx .   
 sudo docker run -it --rm azizdevops/nginx  
 sudo docker run -it --rm -d azizdevops/nginx  
