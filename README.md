@@ -16,6 +16,7 @@ sudo docker container run -it --rm azizdevops/demo ./run.sh Hello Ajju
 sudo docker container run -it --rm azizdevops/demo /bin/bash  
   
 #Dockerfile_Nginx  
+sudo docker image build -t azizdevops/nginx .  
 
 
 echo "# Dockerfile" >> README.md  
